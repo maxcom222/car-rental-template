@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<head>
+    <title>RENT IT - Car Rental Management Template</title>
+    <meta charset="utf-8">
+	<meta name="description" content="Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to email us at jakjim@gmail.com.">
+	<meta name="author" content="jThemes Studio">
+	<meta name="copyright" content="jThemes Studio">
+	<meta name="generator" content="Documenter v2 http://rxa.li/documenter">
+	<meta name="date" content="2015-05-01T00:00:00+00:00">
+	
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	<script src="js/jquery.1.6.4.js"></script>
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	
+	<link rel="stylesheet" href="css/shDocumenter.css" media="screen">
+	<script src="js/shCore.js"></script>
+	<script src="js/shBrushXml.js"></script>
+	<script src="js/shBrushPhp.js"></script>
+	<script src="js/shBrushJScript.js"></script>
+	<script>SyntaxHighlighter.defaults['toolbar'] = false;SyntaxHighlighter.all();</script>
+	<script>document.createElement('section');var duration=500,easing='swing';</script>
+	<script src="js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#374146;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+        h1,h2,h3,h4,h5,h6 {color:#0d1d31;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/logo-rentit.png);}
+		a{color:#dc143c;}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ol a{background-color:#f5f5f5;color:#222222;}
+		#documenter_sidebar ol{border-top:1px solid #435469;}
+		#documenter_sidebar ol a{border-top:1px solid #f5f5f5;border-bottom:1px solid #c5c7c9;color:#374146;}
+		#documenter_sidebar ol a:hover{background:#435469;color:#ffffff;border-top:1px solid #435469;}
+		#documenter_sidebar ol a.current{background:#0d1d31;color:#ffffff;border-top:1px solid #0d1d31;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body>
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#files_structure">Files Structure</a></li>
+			<li><a href="#html_structure">HTML Structure</a></li>
+			<li><a href="#css_structure">CSS Structure</a></li>
+			<li><a href="#javascript">Javascript</a></li>
+			<li><a href="#fonts">Fonts</a></li>
+			<li><a href="#icons">Icons</a></li>
+			<li><a href="#logo">Logo</a></li>
+			<li><a href="#sliders">Sliders</a></li>
+			<li><a href="#main_slider">Main Slider</a></li>
+			<li><a href="#lightbox">Lightbox</a></li>
+			<li><a href="#google-map">Google Map</a></li>
+			<li><a href="#php_scripts">PHP Scripts</a></li>
+			<li><a href="#social_media_icons">Social Media - Icons</a></li>
+			<li><a href="#theme_config">Theme Config</a></li>
+            <li><a href="#countdown">Countdown</a></li>
+            <li><a href="#source_credits">Source & Credits</a></li>
+		</ol>
+		<div id="documenter_copyright">
+            Copyright jThemes Studio 2015<br>
+		    made with the <a href="http://rxa.li/documenter">Documenter v2</a>
+		</div>
+	</div>
+	<div id="documenter_content">
+
+    <!-- -->
+
+	<section id="documenter_cover">
+        <h1>RENT IT</h1>
+        <h2>Car Rental Management Template</h2>
+        <hr>
+        <ul>
+            <li>Created: 2015-05-01</li>
+            <li>latest Update: 2015-05-01</li>
+            <li>By: jThemes Studio</li>
+            <li><a href=""></a></li>
+            <li>Email: <a href="mailto:jakjim@gmail.com">jakjim@gmail.com</a></li>
+        </ul>
+        <p>Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to email us.</p>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="files_structure">
+        <h3>Files Structure</h3>
+        <hr class="notop">
+        <pre>
+
+            - assets/css     (Template CSS)
+            - assets/ico     (Favicon and apple touch icon)
+            - assets/img     (All Images)
+            - assets/js      (Template JS)
+            - assets/php     (Contact Form php files)
+            - assets/plugins (All external libs. We keep all of them in this folder to make updates easily.)
+        </pre>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="html_structure">
+        <h3>HTML Structure</h3>
+        <hr class="notop">
+        <p>The template is based on <strong>Bootstrap </strong>Framework - <a href="http://getbootstrap.com/">http://getbootstrap.com/</a><br>
+            The default Bootstrap grid system utilizes <strong>12 columns</strong>, making for a <strong>1170px </strong>wide depending on your viewport.<br>
+            Below 480px viewports, the columns become fluid and stack vertically.
+        </p>
+        <p>Create a .row and add the appropriate number of .col-sm-* columns.</p>
+        <h4>HTML Markup</h4>
+        <pre class="brush: html">
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-sm-12&quot;&gt;
+                Level 1 column
+                &lt;div class=&quot;row&quot;&gt;
+                    &lt;div class=&quot;col-sm-6&quot;&gt;Level 2&lt;/div&gt;
+                    &lt;div class=&quot;col-sm-6&quot;&gt;Level 2&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        </pre>
+        <p>If you need more information, please visit this site: <a href="http://getbootstrap.com/css/#grid">http://getbootstrap.com/css/#grid</a></p>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="css_structure">
+        <h3>CSS Structure</h3>
+        <hr class="notop">
+        <p>The organization of the CSS is one of our priorities.<br>
+            These are the CSS file we&#39;re using in the template:
+        </p>
+        <pre>
+
+        - assets
+            - css
+                - theme.css        - (Main CSS file)
+                - theme-blue-1.css - (Predefined Colors)
+                - theme-blue-2.css
+                - ...
+        </pre>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="javascript">
+        <h3>Javascript</h3>
+        <hr class="notop">
+        <p><strong>jQuery </strong>- is a Javascript library that greatly reduces the amount of code that you must write.<br>
+            For more information, please visit <a href="http://www.jquery.com/">http://www.jquery.com/</a></p>
+        <p>All the JavaScript libraries and files are included at the bottom of every HTML page like this:</p>
+        <pre class="brush: html">
+            <script src="assets/plugins/modernizr.custom.js"></script>
+        </pre>
+        <p>The initializations and parameters (sliders, effects, etc.) are contained in <strong>assets/js/theme.js</strong></p>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="fonts">
+        <h3>Fonts</h3>
+        <hr class="notop">
+        <p>To change the embedded font, please take a look in the head part of assets/css/theme.css:</p>
+        <pre>
+
+            @import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+        </pre>
+        <p>To change the font, first go to http://www.google.com/webfonts choose a font and add the generated code to the top of theme.css.</p>
+        <p>Then edit font-family in </p>
+        <pre>
+
+            body {
+                font-family: 'Lato', sans-serif;
+                font-size: 14px;
+                line-height: 1.72;
+                background: #ffffff;
+                color: #737475;
+                -webkit-font-kerning: auto;
+                -webkit-font-smoothing: antialiased;
+                -webkit-backface-visibility: visible !important;
+                position: relative;
+                overflow-x: hidden;
+            }
+        </pre>
+        <p>and</p>
+        <pre>
+
+            h1, h2, h3, h4, h5, h6 {
+                font-weight: normal;
+                color: #141f23;
+            }
+        </pre>
+        <p>and</p>
+        <pre>
+
+            .btn-theme {
+                color: #ffffff;
+                border-width: 3px;
+                background-color: #00b16a;
+                border-color: #00b16a;
+                padding: 12px 20px;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 1;
+                text-transform: uppercase;
+                -webkit-transition: all 0.2s ease-in-out;
+                transition: all 0.2s ease-in-out;
+            }
+        </pre>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="icons">
+        <h3>Icons</h3>
+        <hr class="notop">
+        <p><strong>Font Awesome</strong> is a @font-face iconset that you can change size and color of the icons usingCSS.</p>
+        <p>If you need more information, please visit this site: <a href="http://fortawesome.github.com/Font-Awesome/">http://fortawesome.github.com/Font-Awesome/</a></p>
+        <p>&nbsp;</p>
+        <h4>HTML Markup:</h4>
+        <pre class="brush: html">
+        &lt;i class=&quot;fa-edit&quot;&gt;&lt;/i&gt;
+        &lt;i class=&quot;fa-search&quot;&gt;&lt;/i&gt;
+        ...
+        </pre>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="logo">
+        <h3>Logo</h3>
+        <hr class="notop">
+        <p>Open index.html and find this part of code</p>
+
+        <h4>HTML Markup:</h4>
+        <pre class="brush: html">
+
+        <!-- Logo -->
+            <div class="logo">
+                <a href="index.html"><img src="assets/img/logo-rentit.png" alt=""/></a>
+            </div>
+        <!-- /Logo -->
+
+         </pre>
+
+        <p>and past path to your logo image:</p>
+
+        <pre class="brush: html">
+
+        <!-- Logo -->
+            <div class="logo">
+                <a href="index.html"><img src="assets/img/... path to your image logo ..." alt=""/></a>
+            </div>
+        <!-- /Logo -->
+        </pre>
+
+
+    </section>
+
+    <!-- -->
+
+    <section id="sliders">
+        <h3>Sliders</h3>
+        <hr class="notop">
+        <h4>Owl Carousel</h4>
+        <p><strong>Owl Carousel </strong>is the slider you&#39;ll find in the content.</p>
+        <p>It's an easy to use lightweight carousel with some decent features.</p>
+        <p>You can find more documentation here <a href="http://www.owlcarousel.owlgraphic.com/">http://www.owlcarousel.owlgraphic.com/</a></p>
+        <p>&nbsp;</p>
+        <h4>Swiper</h4>
+        <p>Another way to build and use carousel with some features.</p>
+        <p>You can find more documentation here <a href="http://www.idangero.us/swiper/">http://www.idangero.us/swiper/</a></p>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="main_slider">
+        <h3>Main slider</h3>
+        <hr class="notop">
+        <p><strong>Main slider</strong> has id "<code>main-slider</code>" and each slide divided by html comment '<code>&lt;!-- Slide 1 --></code>' for easy find where slide html code start, also each slide container has css class '<code>slide1, slide2, slide3 ...</code>'</p>
+        <p>To change the text in each slide, you need to find '<code>h2</code>' html tag with class '<code>caption-title</code>' and '<code>h3</code>' tag with class '<code>caption-subtitle</code>' in div with '<code>caption</code>' class</p>
+        <p>If you wont remove some slide just remove div with all content like this '<code>&lt;div class="item slide1"></code>'</p>
+
+        <pre class="brush: html">
+
+            ...
+
+            <div class="main-slider">
+                <div class="owl-carousel" id="main-slider">
+
+                <!-- Slide 1 -->
+                <div class="item slide1 ver1">
+                    <img class="slide-img" src="assets/img/preview/slider/slide-1.jpg" alt=""/>
+                    <div class="caption">
+
+                        <!-- Search form -->
+                        ...
+                        <!-- /Search form -->
+                        ...
+
+                        <h2 class="caption-subtitle">Find Your Car!<br/> Rent A Car Theme</h2>
+                        <p class="caption-text">
+                            Vivamus in est sit amet risus rutrum facilisis sed ut mauris. Aenean aliquam ex ut sem aliquet, eget vestibulum erat pharetra. Maecenas vel urna nulla. Mauris non risus pulvinar.
+                        </p>
+                        <p class="caption-text">
+                            <a class="btn btn-theme" href="#">See All Vehicles</a>
+                        </p>
+
+                        ...
+
+                    </div>
+                </div>
+                <!-- /Slide 1 -->
+
+                <!-- Slide 2 -->
+                <div class="item slide2 ver2">
+
+                    ...
+
+                </div>
+
+                ...
+
+                </div>
+            </div>
+
+        </pre>
+        <p>You can find more documentation here <a href="http://www.owlcarousel.owlgraphic.com/">http://www.owlcarousel.owlgraphic.com/</a></p>
+        <p>&nbsp;</p>
+        <p>If you wont change option for main slider you need to open assets/js/theme.js and find 'initMainSlider' function and set true/false for option what you wont to change</p>
+        <p>
+            autoplay: true, - set autoplay for slider<br/>
+            nav: false, - hide navigation arrow<br/>
+            dots: true, - show dots navigation
+        </p>
+        <pre class="brush: js">
+            // Main Slider
+            initMainSlider: function () {
+                $('#main-slider').owlCarousel({
+                    //items: 1,
+                    autoplay: false,
+                    autoplayHoverPause: true,
+                    loop: true,
+                    margin: 0,
+                    dots: false,
+                    nav: true,
+                    navText: [
+                        "<i class='fa fa-angle-left'></i>",
+                        "<i class='fa fa-angle-right'></i>"
+                    ],
+                    responsiveRefreshRate: 100,
+                    responsive: {
+                        0:    {items: 1},
+                        479:  {items: 1},
+                        768:  {items: 1},
+                        991:  {items: 1},
+                        1024: {items: 1}
+                    }
+                });
+
+            }
+        </pre>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="lightbox">
+        <h3>Lightbox</h3>
+        <hr class="notop">
+        <p>The timeline is driven by the <strong>PrettyPhoto </strong>script.<br>
+            For more information check the <a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/documentation" target="_blank">documentation</a></p>
+        <p><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/" target="_blank">http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/</a></p>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="google-map">
+        <h3>Google Map</h3>
+        <hr class="notop">
+        <p>Open assets/js/theme.js and find function initGoogleMap and set your coordinates for map and marker.</p>
+        <p>in line: center: new google.maps.LatLng(40.9807648, 28.9866516) past your coordinates for map
+            example: center: new google.maps.LatLng(your coordinates goes here)
+            </p>
+        <p>in line: position: new google.maps.LatLng(41.0096559,28.9755535), past your coordinates for marker
+            example: position: new google.maps.LatLng(your coordinates goes here)<br/>
+        </p>
+        <p><a href="https://support.google.com/maps/answer/18539?hl=en">https://support.google.com/maps/answer/18539?hl=en</a></p>
+        <p>If you wont change icon for marker replace 'icon-google-map.png' by your icon in 'assets/img/' folder</p>
+        <pre class="brush: js">
+            // Google map
+            initGoogleMap: function() {
+                var map;
+                var marker;
+                var image = 'assets/img/icon-google-map.png'; // marker icon
+                function initialize() {
+                    var mapOptions = {
+                        scrollwheel: false,
+                        zoom: 12,
+                        center: new google.maps.LatLng(40.9807648, 28.9866516) // map coordinates
+                    };
+                    map = new google.maps.Map(document.getElementById('map-canvas'),
+                        mapOptions);
+                    marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(41.0096559,28.9755535), // marker coordinates
+                        map: map,
+                        icon: image,
+                        title: 'Hello World!'
+                    });
+                }
+                google.maps.event.addDomListener(window, 'load', initialize);
+            }
+        </pre>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="php_scripts">
+        <h3>PHP Scripts</h3>
+        <hr class="notop">
+        <h4>Registration Form</h4>
+        <p>For Registration Form to work only thing you need to do is to setup your email address and your name.<br>
+            To do this, please open<strong> &quot;assets/php/registration-form.php&quot; </strong> file and change these lines:</p>
+        <pre class="brush: php">
+        $to = &#39;&#121;&#111;&#117;&#64;&#100;&#111;&#109;&#97;&#105;&#110;&#46;&#99;&#111;&#109;&#39;;
+        $toname = 'Your Name';
+        </pre>
+        <p class="warning">One notice: this will be functional only on your server, php files can not be executed on your local computer.</p>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="social_media_icons">
+        <h3>Social Media - Icons</h3>
+        <hr class="notop">
+        <p> We are using FontAwesome for social media icons in this template. Insert icons like this:</p>
+        <pre class="brush: html">
+            <i class="fa fa-google-plus"></i>
+        </pre>
+        <p>Here's the complete list of available icons from FontAwesome docs:</p>
+        <p><img src="assets/images/docs-social.gif" alt="FontAwesome social icons"></p>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="theme_config">
+        <h3>Theme Config</h3>
+        <hr class="notop">
+        <p><strong>Template has buit-in styles</strong>:</p>
+        <ul>
+            <li>wide / boxed layout</li>
+            <li>color variation</li>
+        </ul>
+
+        <p>To change this you need need find '<code>body</code>' tag in html and change/add correct css class<br/>
+            here are default setting example:</p>
+        <pre class="brush: html">
+            &nbsp;
+            &lt;body id="home" class="wide"&gt; ...
+            &nbsp;
+        </pre>
+        <p>&nbsp;</p>
+
+        <p>for boxed view change '<code>wide</code>' class to '<code>boxed</code>'</p>
+        <pre class="brush: html">
+            &nbsp;
+            &lt;body id="home" class="boxed"&gt; ...
+            &nbsp;
+        </pre>
+        <p>&nbsp;</p>
+
+        <h4>Predefined colors theme list:</h4>
+        <ul>
+            <li>theme-blue-1.css</li>
+            <li>theme-blue-2.css</li>
+            <li>theme-cumin.css</li>
+            <li>theme-gold.css</li>
+            <li>theme-gray.css</li>
+            <li>theme-green-1.css</li>
+            <li>theme-green-2.css</li>
+            <li>theme-orange-1.css</li>
+            <li>theme-orange-2.css</li>
+            <li>theme-pink.css</li>
+            <li>theme-purple-1.css</li>
+            <li>theme-purple-2.css</li>
+            <li>theme-red-1.css</li>
+            <li>theme-red-2.css</li>
+            <li>theme-yellow-1.css</li>
+            <li>theme-yellow-2.css</li>
+        </ul>
+        <p>by default set green color '<code>theme-green-1.css</code>' and if you wont color use theme-blue-1 you need find this code below change '<code>theme-green-1.css</code>' to '<code>theme-blue-1.css</code>' </p>
+        <pre class="brush: html">
+            &nbsp;
+            <link href="assets/css/theme-blue-1.css" rel="stylesheet">
+            &nbsp;
+        </pre>
+        <p>&nbsp;</p>
+
+        <p>You can enable/disable theme config panel by commenting this code at the end of the html</p>
+        <p><strong>Enabled panel:</strong></p>
+        <pre class="brush: html">
+            &nbsp;
+            &lt;script src="assets/plugins/jquery.cookie.js"&gt;&lt;/script&gt;
+            &lt;script src="assets/js/theme-config.js"&gt;&lt;/script&gt;
+            &nbsp;
+        </pre>
+        <p>&nbsp;</p>
+
+        <p><strong>Disabled panel:</strong></p>
+        <pre class="brush: html">
+            &nbsp;
+            &lt;!--script src="assets/plugins/jquery.cookie.js"&gt;&lt;/script&gt;
+            &lt;script src="assets/js/theme-config.js"&gt;&lt;/script--&gt;
+            &nbsp;
+        </pre>
+        <p>&nbsp;</p>
+        
+    </section>
+
+    <section id="countdown">
+        <h3>Countdown</h3>
+        <hr class="notop">
+        <p>The countdown is driven by the jQuery Countdown script</p>
+        <p>You can set you date by open assets/js/theme.js file and change it this code below</p>
+        <pre class="brush: js">
+            austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+        </pre>
+        <p>A note on Date - the JavaScript Date constructor expects the year, month, and day as parameters. However, the
+            month ranges from 0 to 11. To make explicit what date is intended (does a month of 3 mean March or April?) I
+            specify the month from 1 to 12 and manually subtract the 1. Thus the following denotes 25 December, 2014.
+        </p>
+        <pre class="brush: js">
+            austDay = new Date(2014, 12-1, 25);
+        </pre>
+        <p>For more information check the <a href="http://keith-wood.name/countdown.html">documentation</a></p>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+    <section id="source_credits">
+        <h3>Source & Credits</h3>
+        <hr class="notop">
+        <p>&nbsp;</p>
+        <p>Fonts:<br>
+            <strong>Google Fonts</strong> - <a href="http://www.google.com/webfonts">http://www.google.com/webfonts</a><br>
+            <strong>Icons Font-face</strong> - <a href="http://fortawesome.github.com/Font-Awesome/">http://fortawesome.github.com/Font-Awesome/</a><br>
+        </p>
+        <p>Scripts:<br>
+            <strong>jQuery</strong> - <a href="http://www.jquery.com/">http://www.jquery.com/</a><br>
+            <strong>Modernizr </strong>- <a href="http://modernizr.com/">http://modernizr.com/</a><br>
+            <strong>Bootstrap Framework</strong> - <a href="http://getbootstrap.com/">http://getbootstrap.com/</a><br>
+            <strong>Bootstrap-select</strong> - <a href="http://silviomoreto.github.io/bootstrap-select/">http://silviomoreto.github.io/bootstrap-select/</a><br>
+            <strong>Font Awesome</strong> - <a href="http://fontawesome.io/">http://fontawesome.io/</a><br>
+            <strong>Owl Carousel 2</strong> - <a href="http://www.owlcarousel.owlgraphic.com/">http://www.owlcarousel.owlgraphic.com/</a><br>
+            <strong>Swiper</strong> - <a href="http://www.idangero.us/swiper/">http://www.idangero.us/swiper/</a><br>
+            <strong>Superfish Menu</strong> - <a href="http://plugins.jquery.com/superfish/">http://plugins.jquery.com/superfish/</a><br>
+            <strong>HTML5shiv</strong> - <a href="http://code.google.com/p/html5shiv/">http://code.google.com/p/html5shiv/</a><br>
+            <strong>Respond.js</strong> - <a href="https://github.com/scottjehl/Respond">https://github.com/scottjehl/Respond</a><br>
+            <strong>PrettyPhoto</strong>- <a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/</a><br>
+            <strong>jQuery Easing</strong> - <a href="http://gsgd.co.uk/sandbox/jquery/easing/">http://gsgd.co.uk/sandbox/jquery/easing/</a><br>
+            <strong>Smooth anchor scrolling plugin for jQuery</strong> - <a href="http://mths.be/smoothscroll">http://mths.be/smoothscroll</a><br>
+            <strong>jCountdown</strong> - <a href="http://keith-wood.name/countdown.html/">http://keith-wood.name/countdown.html</a><br>
+            <strong>Animate.css</strong> - <a href="http://daneden.github.io/animate.css/">http://daneden.github.io/animate.css/</a><br>
+        </p>
+        <p class="info">The images included in preview are for demonstration purposes and should always be replaced with your own work.</p>
+        <p>&nbsp;</p>
+        <p>Images:<br>
+            <a href="http://#/">http://#/</a><br>
+        </p>
+        <h4><strong>jThemes Studio</strong></h4>
+        <p>&nbsp;</p>
+    </section>
+
+    <!-- -->
+
+	</div>
+</body>
+</html>

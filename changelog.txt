@@ -1,0 +1,16 @@
+Version 1.3.1
+    - RTL fix
+
+Version 1.3
+    - Responsive fix
+
+Version 1.2
+    - Onepage version fixed active state menu
+    - Booking/reservation form (simple example) work with php
+
+Version 1.1
+	- Fixed responsive view: now forms in main slider visible on mobile
+	- Added one page version
+
+Version 1.0
+	Release

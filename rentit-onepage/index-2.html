@@ -1,0 +1,1582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Rent It</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <!-- CSS Global -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/plugins/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="assets/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/plugins/prettyphoto/css/prettyPhoto.css" rel="stylesheet">
+    <link href="assets/plugins/owl-carousel2/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/plugins/owl-carousel2/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/plugins/animate/animate.min.css" rel="stylesheet">
+    <link href="assets/plugins/swiper/css/swiper.min.css" rel="stylesheet">
+    <link href="assets/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="assets/css/theme.css" rel="stylesheet">
+
+    <!-- Head Libs -->
+    <script src="assets/plugins/modernizr.custom.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/iesupport/html5shiv.js"></script>
+    <script src="assets/plugins/iesupport/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="home" class="wide">
+<!-- PRELOADER -->
+<div id="preloader">
+    <div id="preloader-status">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+        <div id="preloader-title">Loading</div>
+    </div>
+</div>
+<!-- /PRELOADER -->
+
+<!-- WRAPPER -->
+<div class="wrapper">
+
+    <!-- HEADER -->
+    <header class="header fixed">
+        <div class="header-wrapper">
+            <div class="container">
+
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="index.html"><img src="assets/img/logo-rentit.png" alt="Rent It"/></a>
+                </div>
+                <!-- /Logo -->
+
+                <!-- Mobile menu toggle button -->
+                <a href="#" class="menu-toggle btn btn-theme-transparent"><i class="fa fa-bars"></i></a>
+                <!-- /Mobile menu toggle button -->
+
+                <!-- Navigation -->
+                <nav class="navigation site-menu-bar closed clearfix">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <!-- navigation menu -->
+                            <a href="#" class="menu-toggle-close btn"><i class="fa fa-times"></i></a>
+                            <ul class="nav sf-menu">
+                                <li class="active"><a href="index.html">Home</a>
+                                    <ul>
+                                        <li><a href="index.html">Home 1</a></li>
+                                        <li><a href="index-2.html">Home 2</a></li>
+                                        <li><a href="index-3.html">Home 3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#testimonials-wrap">testimonials</a></li>
+                                <li><a href="#ourcars">Our Cars</a></li>
+                                <li><a href="blog.html">Blog</a>
+                                    <ul>
+                                        <li><a href="blog.html">Blog Sidebar Left </a></li>
+                                        <li><a href="blog-right.html">Blog Sidebar Right</a></li>
+                                        <li><a href="blog-post.html">Blog Single Post</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li>
+                                    <ul class="social-icons">
+                                        <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!-- /navigation menu -->
+                        </div>
+                    </div>
+                    <!-- Add Scroll Bar -->
+                    <div class="swiper-scrollbar"></div>
+                </nav>
+                <!-- /Navigation -->
+
+            </div>
+        </div>
+
+    </header>
+    <!-- /HEADER -->
+
+    <!-- CONTENT AREA -->
+    <div class="content-area">
+
+        <!-- PAGE -->
+        <section class="page-section no-padding no-bottom-space-off">
+            <div class="container full-width gmap-background">
+
+                <div class="container">
+                    <div class="on-gmap">
+                        <!-- Search form -->
+                        <div class="form-search light">
+                            <form action="#">
+                                <div class="form-title">
+                                    <i class="fa fa-globe"></i>
+                                    <h2>Search for Cheap Rental Cars Wherever Your Are</h2>
+                                </div>
+
+                                <div class="row row-inputs">
+                                    <div class="container-fluid">
+                                        <div class="col-sm-12">
+                                            <div class="form-group has-icon has-label">
+                                                <label for="formSearchUpLocation2">Picking Up Location</label>
+                                                <input type="text" class="form-control" id="formSearchUpLocation2" placeholder="Airport or Anywhere">
+                                                <span class="form-control-icon"><i class="fa fa-location-arrow"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="form-group has-icon has-label">
+                                                <label for="formSearchOffLocation2">Picking Off Location</label>
+                                                <input type="text" class="form-control" id="formSearchOffLocation2" placeholder="Airport or Anywhere">
+                                                <span class="form-control-icon"><i class="fa fa-location-arrow"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row row-inputs">
+                                    <div class="container-fluid">
+                                        <div class="col-sm-7">
+                                            <div class="form-group has-icon has-label">
+                                                <label for="formSearchUpDate2">Picking Up Date</label>
+                                                <input type="text" class="form-control datepicker" id="formSearchUpDate2" placeholder="dd/mm/yyyy">
+                                                <span class="form-control-icon"><i class="fa fa-calendar"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="form-group has-icon has-label">
+                                                <label for="formSearchUpHour2">Picking Up Hour</label>
+                                                <input type="text" class="form-control" id="formSearchUpHour2" placeholder="20:00 AM">
+                                                <span class="form-control-icon"><i class="fa fa-clock-o"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row row-inputs">
+                                    <div class="container-fluid">
+                                        <div class="col-sm-7">
+                                            <div class="form-group has-icon has-label">
+                                                <label for="formSearchOffDate2">Picking Off Date</label>
+                                                <input type="text" class="form-control datepicker" id="formSearchOffDate2" placeholder="dd/mm/yyyy">
+                                                <span class="form-control-icon"><i class="fa fa-calendar"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="form-group has-icon has-label">
+                                                <label for="formSearchOffHour2">Picking Up Hour</label>
+                                                <input type="text" class="form-control" id="formSearchOffHour2" placeholder="20:00 AM">
+                                                <span class="form-control-icon"><i class="fa fa-clock-o"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row row-submit">
+                                    <div class="container-fluid">
+                                        <div class="inner">
+                                            <i class="fa fa-plus-circle"></i> <a href="#">Advanced Search</a>
+                                            <button type="submit" id="formSearchSubmit2" class="btn btn-submit btn-theme pull-right">Find Car</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- /Search form -->
+                    </div>
+                </div>
+
+                <!-- Google map -->
+                <div class="google-map">
+                    <div id="map-canvas"></div>
+                </div>
+                <!-- /Google map -->
+
+            </div>
+        </section>
+        <!-- /PAGE -->
+
+        <!-- PAGE -->
+        <section id="testimonials-wrap" class="page-section testimonials alt">
+            <div class="container">
+                <div class="testimonials-carousel">
+                    <div class="owl-carousel" id="testimonials-alt">
+                        <div class="testimonial">
+                            <div class="media">
+                                <div class="media-body">
+                                    <div class="testimonial-text">Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.</div>
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object testimonial-avatar" src="assets/img/preview/avatars/testimonial-140x140x1.jpg" alt="Testimonial avatar">
+                                        </a>
+                                    </div>
+                                    <div class="testimonial-name">John Anthony Gibson <span class="testimonial-position">Co- founder at Rent It</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="media">
+                                <div class="media-body">
+                                    <div class="testimonial-text">Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.</div>
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object testimonial-avatar" src="assets/img/preview/avatars/testimonial-140x140x1.jpg" alt="Testimonial avatar">
+                                        </a>
+                                    </div>
+                                    <div class="testimonial-name">John Anthony Gibson <span class="testimonial-position">Co- founder at Rent It</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="media">
+                                <div class="media-body">
+                                    <div class="testimonial-text">Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.</div>
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object testimonial-avatar" src="assets/img/preview/avatars/testimonial-140x140x1.jpg" alt="Testimonial avatar">
+                                        </a>
+                                    </div>
+                                    <div class="testimonial-name">John Anthony Gibson <span class="testimonial-position">Co- founder at Rent It</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="media">
+                                <div class="media-body">
+                                    <div class="testimonial-text">Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.</div>
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object testimonial-avatar" src="assets/img/preview/avatars/testimonial-140x140x1.jpg" alt="Testimonial avatar">
+                                        </a>
+                                    </div>
+                                    <div class="testimonial-name">John Anthony Gibson <span class="testimonial-position">Co- founder at Rent It</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /PAGE -->
+
+        <!-- PAGE -->
+        <section id="ourcars"  class="page-section">
+            <div class="container">
+
+                <h2 class="section-title">
+                    <small>Select What You Want</small>
+                    <span>Our awesome Rental Fleet cars</span>
+                </h2>
+
+                <div class="tabs awesome wow fadeInUp" data-wow-offset="70" data-wow-delay="500ms">
+                    <ul id="tabs1" class="nav"><!--
+                        --><li class=""><a href="#tab-x1" data-toggle="tab">Economic cars</a></li><!--
+                        --><li class="active"><a href="#tab-x2" data-toggle="tab">Business cars</a></li><!--
+                        --><li class=""><a href="#tab-x3" data-toggle="tab">Premium cars</a></li><!--
+                        --><li class=""><a href="#tab-x4" data-toggle="tab">Luxury cars</a></li>
+                    </ul>
+                </div>
+
+                <div class="tab-content">
+                    <!-- tab 1 -->
+                    <div class="tab-pane fade" id="tab-x1">
+                        <div class="car-big-card">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="tabs awesome-sub">
+                                        <ul id="tabs4" class="nav"><!--
+                                            --><li class=""><a href="#tab-x1x1" data-toggle="tab">VW Passat CC 2.0 TDI</a></li><!--
+                                            --><li class="active"><a href="#tab-x1x2" data-toggle="tab">VW Polo 1.6 TDI Comfortline</a></li><!--
+                                            --><li class=""><a href="#tab-x1x3" data-toggle="tab">Toyota Corolla 1.6 Elegant</a></li><!--
+                                            --><li class=""><a href="#tab-x1x4" data-toggle="tab">Honda Civic Elegance</a></li><!--
+                                            --><li class=""><a href="#tab-x1x4" data-toggle="tab">Renoult Megane</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+
+                                    <!-- Sub tabs content -->
+                                    <div class="tab-content">
+
+                                        <div class="tab-content">
+
+                                            <div class="tab-pane fade" id="tab-x1x1">
+                                                <div class="row">
+                                                    <div class="col-md-8">
+                                                        <!-- Swiper -->
+                                                        <div class="swiper-container" id="swiperSlider1x1">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                                </div>
+                                                            </div>
+                                                            <!-- Add Pagination -->
+                                                            <div class="row car-thumbnails"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="car-details">
+                                                            <div class="price">
+                                                                <strong>111.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                            </div>
+                                                            <div class="list">
+                                                                <ul>
+                                                                    <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                    <li>Under 25,000 Km</li>
+                                                                    <li>Transmission Manual</li>
+                                                                    <li>5 Year service included</li>
+                                                                    <li>Manufacturing Year 2014</li>
+                                                                    <li>5 Doors and Panorama View</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="button">
+                                                                <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade active in" id="tab-x1x2">
+                                                <div class="row">
+                                                    <div class="col-md-8">
+                                                        <!-- Swiper -->
+                                                        <div class="swiper-container" id="swiperSlider1x2">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                                </div>
+                                                            </div>
+                                                            <!-- Add Pagination -->
+                                                            <div class="row car-thumbnails"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="car-details">
+                                                            <div class="price">
+                                                                <strong>112.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                            </div>
+                                                            <div class="list">
+                                                                <ul>
+                                                                    <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                    <li>Under 25,000 Km</li>
+                                                                    <li>Transmission Manual</li>
+                                                                    <li>5 Year service included</li>
+                                                                    <li>Manufacturing Year 2014</li>
+                                                                    <li>5 Doors and Panorama View</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="button">
+                                                                <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="tab-x1x3">
+                                                <div class="row">
+                                                    <div class="col-md-8">
+                                                        <!-- Swiper -->
+                                                        <div class="swiper-container" id="swiperSlider1x3">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                                </div>
+                                                            </div>
+                                                            <!-- Add Pagination -->
+                                                            <div class="row car-thumbnails"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="car-details">
+                                                            <div class="price">
+                                                                <strong>113.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                            </div>
+                                                            <div class="list">
+                                                                <ul>
+                                                                    <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                    <li>Under 25,000 Km</li>
+                                                                    <li>Transmission Manual</li>
+                                                                    <li>5 Year service included</li>
+                                                                    <li>Manufacturing Year 2014</li>
+                                                                    <li>5 Doors and Panorama View</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="button">
+                                                                <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="tab-x1x4">
+                                                <div class="row">
+                                                    <div class="col-md-8">
+                                                        <!-- Swiper -->
+                                                        <div class="swiper-container" id="swiperSlider1x4">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                                </div>
+                                                            </div>
+                                                            <!-- Add Pagination -->
+                                                            <div class="row car-thumbnails"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="car-details">
+                                                            <div class="price">
+                                                                <strong>114.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                            </div>
+                                                            <div class="list">
+                                                                <ul>
+                                                                    <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                    <li>Under 25,000 Km</li>
+                                                                    <li>Transmission Manual</li>
+                                                                    <li>5 Year service included</li>
+                                                                    <li>Manufacturing Year 2014</li>
+                                                                    <li>5 Doors and Panorama View</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="button">
+                                                                <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="tab-x1x5">
+                                                <div class="row">
+                                                    <div class="col-md-8">
+                                                        <!-- Swiper -->
+                                                        <div class="swiper-container" id="swiperSlider1x5">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                    <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                                </div>
+                                                            </div>
+                                                            <!-- Add Pagination -->
+                                                            <div class="row car-thumbnails"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="car-details">
+                                                            <div class="price">
+                                                                <strong>115.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                            </div>
+                                                            <div class="list">
+                                                                <ul>
+                                                                    <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                    <li>Under 25,000 Km</li>
+                                                                    <li>Transmission Manual</li>
+                                                                    <li>5 Year service included</li>
+                                                                    <li>Manufacturing Year 2014</li>
+                                                                    <li>5 Doors and Panorama View</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="button">
+                                                                <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <!-- /Sub tabs content -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- tab 2 -->
+                    <div class="tab-pane fade active in" id="tab-x2">
+
+                        <div class="car-big-card">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="tabs awesome-sub">
+                                        <ul id="tabs-x2" class="nav"><!--
+                                            --><li class=""><a href="#tab-x2x1" data-toggle="tab">VW Passat CC 2.0 TDI</a></li><!--
+                                            --><li class="active"><a href="#tab-x2x2" data-toggle="tab">VW Polo 1.6 TDI Comfortline</a></li><!--
+                                            --><li class=""><a href="#tab-x2x3" data-toggle="tab">Toyota Corolla 1.6 Elegant</a></li><!--
+                                            --><li class=""><a href="#tab-x2x4" data-toggle="tab">Honda Civic Elegance</a></li><!--
+                                            --><li class=""><a href="#tab-x2x5" data-toggle="tab">Renoult Megane</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+
+                                    <!-- Sub tabs content -->
+                                    <div class="tab-content">
+
+                                        <div class="tab-pane fade" id="tab-x2x1">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <!-- Swiper -->
+                                                    <div class="swiper-container" id="swiperSlider2x1">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Add Pagination -->
+                                                        <div class="row car-thumbnails"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="car-details">
+                                                        <div class="price">
+                                                            <strong>121.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                        </div>
+                                                        <div class="list">
+                                                            <ul>
+                                                                <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                <li>Under 25,000 Km</li>
+                                                                <li>Transmission Manual</li>
+                                                                <li>5 Year service included</li>
+                                                                <li>Manufacturing Year 2014</li>
+                                                                <li>5 Doors and Panorama View</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="button">
+                                                            <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade active in" id="tab-x2x2">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <!-- Swiper -->
+                                                    <div class="swiper-container" id="swiperSlider2x2">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Add Pagination -->
+                                                        <div class="row car-thumbnails"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="car-details">
+                                                        <div class="price">
+                                                            <strong>122.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                        </div>
+                                                        <div class="list">
+                                                            <ul>
+                                                                <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                <li>Under 25,000 Km</li>
+                                                                <li>Transmission Manual</li>
+                                                                <li>5 Year service included</li>
+                                                                <li>Manufacturing Year 2014</li>
+                                                                <li>5 Doors and Panorama View</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="button">
+                                                            <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="tab-x2x3">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <!-- Swiper -->
+                                                    <div class="swiper-container" id="swiperSlider2x3">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Add Pagination -->
+                                                        <div class="row car-thumbnails"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="car-details">
+                                                        <div class="price">
+                                                            <strong>123.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                        </div>
+                                                        <div class="list">
+                                                            <ul>
+                                                                <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                <li>Under 25,000 Km</li>
+                                                                <li>Transmission Manual</li>
+                                                                <li>5 Year service included</li>
+                                                                <li>Manufacturing Year 2014</li>
+                                                                <li>5 Doors and Panorama View</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="button">
+                                                            <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="tab-x2x4">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <!-- Swiper -->
+                                                    <div class="swiper-container" id="swiperSlider2x4">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Add Pagination -->
+                                                        <div class="row car-thumbnails"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="car-details">
+                                                        <div class="price">
+                                                            <strong>124.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                        </div>
+                                                        <div class="list">
+                                                            <ul>
+                                                                <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                <li>Under 25,000 Km</li>
+                                                                <li>Transmission Manual</li>
+                                                                <li>5 Year service included</li>
+                                                                <li>Manufacturing Year 2014</li>
+                                                                <li>5 Doors and Panorama View</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="button">
+                                                            <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="tab-x2x5">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <!-- Swiper -->
+                                                    <div class="swiper-container" id="swiperSlider2x5">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Add Pagination -->
+                                                        <div class="row car-thumbnails"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="car-details">
+                                                        <div class="price">
+                                                            <strong>125.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                        </div>
+                                                        <div class="list">
+                                                            <ul>
+                                                                <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                <li>Under 25,000 Km</li>
+                                                                <li>Transmission Manual</li>
+                                                                <li>5 Year service included</li>
+                                                                <li>Manufacturing Year 2014</li>
+                                                                <li>5 Doors and Panorama View</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="button">
+                                                            <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- /Sub tabs content -->
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- tab 3 -->
+                    <div class="tab-pane fade" id="tab-x3">
+
+                        <div class="car-big-card">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="tabs awesome-sub">
+                                        <ul id="tabs-x3" class="nav"><!--
+                                            --><li class=""><a href="#tab-x3x1" data-toggle="tab">VW Passat CC 2.0 TDI</a></li><!--
+                                            --><li class="active"><a href="#tab-x3x2" data-toggle="tab">VW Polo 1.6 TDI Comfortline</a></li><!--
+                                            --><li class=""><a href="#tab-x3x3" data-toggle="tab">Toyota Corolla 1.6 Elegant</a></li><!--
+                                            --><li class=""><a href="#tab-x3x4" data-toggle="tab">Honda Civic Elegance</a></li><!--
+                                            --><li class=""><a href="#tab-x3x5" data-toggle="tab">Renoult Megane</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+
+                                    <!-- Sub tabs content -->
+                                    <div class="tab-content">
+
+                                        <div class="tab-pane fade" id="tab-x3x1">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <!-- Swiper -->
+                                                    <div class="swiper-container" id="swiperSlider3x1">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Add Pagination -->
+                                                        <div class="row car-thumbnails"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="car-details">
+                                                        <div class="price">
+                                                            <strong>131.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                        </div>
+                                                        <div class="list">
+                                                            <ul>
+                                                                <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                <li>Under 25,000 Km</li>
+                                                                <li>Transmission Manual</li>
+                                                                <li>5 Year service included</li>
+                                                                <li>Manufacturing Year 2014</li>
+                                                                <li>5 Doors and Panorama View</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="button">
+                                                            <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade active in" id="tab-x3x2">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <!-- Swiper -->
+                                                    <div class="swiper-container" id="swiperSlider3x2">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Add Pagination -->
+                                                        <div class="row car-thumbnails"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="car-details">
+                                                        <div class="price">
+                                                            <strong>132.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                        </div>
+                                                        <div class="list">
+                                                            <ul>
+                                                                <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                <li>Under 25,000 Km</li>
+                                                                <li>Transmission Manual</li>
+                                                                <li>5 Year service included</li>
+                                                                <li>Manufacturing Year 2014</li>
+                                                                <li>5 Doors and Panorama View</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="button">
+                                                            <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="tab-x3x3">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <!-- Swiper -->
+                                                    <div class="swiper-container" id="swiperSlider3x3">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Add Pagination -->
+                                                        <div class="row car-thumbnails"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="car-details">
+                                                        <div class="price">
+                                                            <strong>133.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                        </div>
+                                                        <div class="list">
+                                                            <ul>
+                                                                <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                <li>Under 25,000 Km</li>
+                                                                <li>Transmission Manual</li>
+                                                                <li>5 Year service included</li>
+                                                                <li>Manufacturing Year 2014</li>
+                                                                <li>5 Doors and Panorama View</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="button">
+                                                            <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="tab-x3x4">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <!-- Swiper -->
+                                                    <div class="swiper-container" id="swiperSlider3x4">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Add Pagination -->
+                                                        <div class="row car-thumbnails"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="car-details">
+                                                        <div class="price">
+                                                            <strong>134.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                        </div>
+                                                        <div class="list">
+                                                            <ul>
+                                                                <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                <li>Under 25,000 Km</li>
+                                                                <li>Transmission Manual</li>
+                                                                <li>5 Year service included</li>
+                                                                <li>Manufacturing Year 2014</li>
+                                                                <li>5 Doors and Panorama View</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="button">
+                                                            <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="tab-x3x5">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <!-- Swiper -->
+                                                    <div class="swiper-container" id="swiperSlider3x5">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Add Pagination -->
+                                                        <div class="row car-thumbnails"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="car-details">
+                                                        <div class="price">
+                                                            <strong>135.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                        </div>
+                                                        <div class="list">
+                                                            <ul>
+                                                                <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                <li>Under 25,000 Km</li>
+                                                                <li>Transmission Manual</li>
+                                                                <li>5 Year service included</li>
+                                                                <li>Manufacturing Year 2014</li>
+                                                                <li>5 Doors and Panorama View</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="button">
+                                                            <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- /Sub tabs content -->
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- tab 4 -->
+                    <div class="tab-pane fade" id="tab-x4">
+
+                        <div class="car-big-card">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="tabs awesome-sub">
+                                        <ul id="tabs-x4" class="nav"><!--
+                                            --><li class=""><a href="#tab-x4x1" data-toggle="tab">VW Passat CC 2.0 TDI</a></li><!--
+                                            --><li class="active"><a href="#tab-x4x2" data-toggle="tab">VW Polo 1.6 TDI Comfortline</a></li><!--
+                                            --><li class=""><a href="#tab-x4x3" data-toggle="tab">Toyota Corolla 1.6 Elegant</a></li><!--
+                                            --><li class=""><a href="#tab-x4x4" data-toggle="tab">Honda Civic Elegance</a></li><!--
+                                            --><li class=""><a href="#tab-x4x5" data-toggle="tab">Renoult Megane</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+
+                                    <!-- Sub tabs content -->
+                                    <div class="tab-content">
+
+                                        <div class="tab-pane fade" id="tab-x4x1">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <!-- Swiper -->
+                                                    <div class="swiper-container" id="swiperSlider4x1">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Add Pagination -->
+                                                        <div class="row car-thumbnails"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="car-details">
+                                                        <div class="price">
+                                                            <strong>141.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                        </div>
+                                                        <div class="list">
+                                                            <ul>
+                                                                <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                <li>Under 25,000 Km</li>
+                                                                <li>Transmission Manual</li>
+                                                                <li>5 Year service included</li>
+                                                                <li>Manufacturing Year 2014</li>
+                                                                <li>5 Doors and Panorama View</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="button">
+                                                            <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade active in" id="tab-x4x2">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <!-- Swiper -->
+                                                    <div class="swiper-container" id="swiperSlider4x2">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Add Pagination -->
+                                                        <div class="row car-thumbnails"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="car-details">
+                                                        <div class="price">
+                                                            <strong>142.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                        </div>
+                                                        <div class="list">
+                                                            <ul>
+                                                                <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                <li>Under 25,000 Km</li>
+                                                                <li>Transmission Manual</li>
+                                                                <li>5 Year service included</li>
+                                                                <li>Manufacturing Year 2014</li>
+                                                                <li>5 Doors and Panorama View</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="button">
+                                                            <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="tab-x4x3">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <!-- Swiper -->
+                                                    <div class="swiper-container" id="swiperSlider4x3">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Add Pagination -->
+                                                        <div class="row car-thumbnails"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="car-details">
+                                                        <div class="price">
+                                                            <strong>143.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                        </div>
+                                                        <div class="list">
+                                                            <ul>
+                                                                <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                <li>Under 25,000 Km</li>
+                                                                <li>Transmission Manual</li>
+                                                                <li>5 Year service included</li>
+                                                                <li>Manufacturing Year 2014</li>
+                                                                <li>5 Doors and Panorama View</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="button">
+                                                            <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="tab-x4x4">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <!-- Swiper -->
+                                                    <div class="swiper-container" id="swiperSlider4x4">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Add Pagination -->
+                                                        <div class="row car-thumbnails"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="car-details">
+                                                        <div class="price">
+                                                            <strong>144.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                        </div>
+                                                        <div class="list">
+                                                            <ul>
+                                                                <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                <li>Under 25,000 Km</li>
+                                                                <li>Transmission Manual</li>
+                                                                <li>5 Year service included</li>
+                                                                <li>Manufacturing Year 2014</li>
+                                                                <li>5 Doors and Panorama View</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="button">
+                                                            <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="tab-x4x5">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <!-- Swiper -->
+                                                    <div class="swiper-container" id="swiperSlider4x5">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x1.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x1.jpg" alt=""/></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                                <a class="btn btn-zoom" href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><i class="fa fa-arrows-h"></i></a>
+                                                                <a href="assets/img/preview/cars/car-600x426x2.jpg" data-gal="prettyPhoto"><img class="img-responsive" src="assets/img/preview/cars/car-600x426x2.jpg" alt=""/></a>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Add Pagination -->
+                                                        <div class="row car-thumbnails"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="car-details">
+                                                        <div class="price">
+                                                            <strong>145.0</strong> <span>$/per a day</span> <i class="fa fa-info-circle"></i>
+                                                        </div>
+                                                        <div class="list">
+                                                            <ul>
+                                                                <li>Fuel Diesel / 1600 cm3 Engine</li>
+                                                                <li>Under 25,000 Km</li>
+                                                                <li>Transmission Manual</li>
+                                                                <li>5 Year service included</li>
+                                                                <li>Manufacturing Year 2014</li>
+                                                                <li>5 Doors and Panorama View</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="button">
+                                                            <a href="#" class="btn btn-theme ripple-effect btn-theme-dark btn-block">Reservation Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- /Sub tabs content -->
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- /PAGE -->
+
+        <!-- PAGE -->
+        <section id="contact" class="page-section contact dark">
+            <div class="container">
+
+                <!-- Get in touch -->
+
+                <h2 class="section-title">
+                    <small>Feel Free to Say Hello!</small>
+                    <span>Get in Touch With Us</span>
+                </h2>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- Contact form -->
+                        <form name="contact-form" method="post" action="#" class="contact-form alt" id="contact-form">
+
+                            <div class="row">
+                                <div class="col-md-6">
+
+                                    <div class="outer required">
+                                        <div class="form-group af-inner has-icon">
+                                            <label class="sr-only" for="name">Name</label>
+                                            <input
+                                                    type="text" name="name" id="name" placeholder="Name" value="" size="30"
+                                                    data-toggle="tooltip" title="Name is required"
+                                                    class="form-control placeholder"/>
+                                            <span class="form-control-icon"><i class="fa fa-user"></i></span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6">
+
+                                    <div class="outer required">
+                                        <div class="form-group af-inner has-icon">
+                                            <label class="sr-only" for="email">Email</label>
+                                            <input
+                                                    type="text" name="email" id="email" placeholder="Email" value="" size="30"
+                                                    data-toggle="tooltip" title="Email is required"
+                                                    class="form-control placeholder"/>
+                                            <span class="form-control-icon"><i class="fa fa-envelope"></i></span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="form-group af-inner has-icon">
+                                <label class="sr-only" for="input-message">Message</label>
+                                <textarea
+                                        name="message" id="input-message" placeholder="Message" rows="4" cols="50"
+                                        data-toggle="tooltip" title="Message is required"
+                                        class="form-control placeholder"></textarea>
+                                <span class="form-control-icon"><i class="fa fa-bars"></i></span>
+                            </div>
+
+                            <div class="outer required">
+                                <div class="form-group af-inner">
+                                    <input type="submit" name="submit" class="form-button form-button-submit btn btn-block btn-theme" id="submit_btn" value="Send message" />
+                                </div>
+                            </div>
+
+                        </form>
+                        <!-- /Contact form -->
+                    </div>
+                    <div class="col-md-6">
+
+                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+
+                        <ul class="media-list contact-list">
+                            <li class="media">
+                                <div class="media-left"><i class="fa fa-home"></i></div>
+                                <div class="media-body">Adress: 1600 Pennsylvania Ave NW, Washington, D.C.</div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left"><i class="fa fa"></i></div>
+                                <div class="media-body">DC 20500, ABD</div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left"><i class="fa fa-phone"></i></div>
+                                <div class="media-body">Support Phone: 01865 339665</div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left"><i class="fa fa-envelope"></i></div>
+                                <div class="media-body">E mails: info@example.com</div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left"><i class="fa fa-clock-o"></i></div>
+                                <div class="media-body">Working Hours: 09:30-21:00 except on Sundays</div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left"><i class="fa fa-map-marker"></i></div>
+                                <div class="media-body">View on The Map</div>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- /Get in touch -->
+
+            </div>
+        </section>
+        <!-- /PAGE -->
+
+    </div>
+    <!-- /CONTENT AREA -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-meta">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-12">
+                        <p class="btn-row text-center">
+                            <a href="#" class="btn btn-theme btn-icon-left facebook"><i class="fa fa-facebook"></i>FACEBOOK</a>
+                            <a href="#" class="btn btn-theme btn-icon-left twitter"><i class="fa fa-twitter"></i>TWITTER</a>
+                            <a href="#" class="btn btn-theme btn-icon-left pinterest"><i class="fa fa-pinterest"></i>PINTEREST</a>
+                            <a href="#" class="btn btn-theme btn-icon-left google"><i class="fa fa-google"></i>GOOGLE</a>
+                        </p>
+                        <div class="copyright">&copy; 2015 Rent It — An One Page Rental Car Theme made with passion by jThemes Studio</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /FOOTER -->
+
+    <div id="to-top" class="to-top"><i class="fa fa-angle-up"></i></div>
+
+</div>
+<!-- /WRAPPER -->
+
+<!-- JS Global -->
+<script src="assets/plugins/jquery/jquery-1.11.1.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+<script src="assets/plugins/superfish/js/superfish.min.js"></script>
+<script src="assets/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+<script src="assets/plugins/owl-carousel2/owl.carousel.min.js"></script>
+<script src="assets/plugins/jquery.sticky.min.js"></script>
+<script src="assets/plugins/jquery.easing.min.js"></script>
+<script src="assets/plugins/jquery.smoothscroll.min.js"></script>
+<!--<script src="assets/plugins/smooth-scrollbar.min.js"></script>-->
+<script src="assets/plugins/swiper/js/swiper.jquery.min.js"></script>
+<script src="assets/plugins/datetimepicker/js/moment-with-locales.min.js"></script>
+<script src="assets/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+
+<!-- JS Page Level -->
+<script type="text/javascript">
+    jQuery(window).load(function () { jQuery('body').scrollspy({offset: 100, target: '.navigation'}); });
+    jQuery(window).load(function () { jQuery('body').scrollspy('refresh'); });
+    jQuery(window).resize(function () { jQuery('body').scrollspy('refresh'); });
+    jQuery(window).load(function() {
+        if (location.hash != '') {
+            var hash = '#' + window.location.hash.substr(1);
+            if (hash.length) {
+                jQuery('html,body').delay(0).animate({
+                    scrollTop: jQuery(hash).offset().top - 44 + 'px'
+                }, {
+                    duration: 1200,
+                    easing: "easeInOutExpo"
+                });
+            }
+        }
+    });
+</script>
+<script src="assets/js/theme-ajax-mail.js"></script>
+<script src="assets/js/theme.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+
+</body>
+</html>
